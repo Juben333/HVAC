@@ -1,0 +1,276 @@
+[
+  {
+    "id": "18\u00f8_Main_1",
+    "type": "Supply",
+    "dimension_label": "18\u00f8",
+    "location_context": "Main",
+    "bbox": [
+      0.065,
+      0.18,
+      0.145,
+      0.42
+    ],
+    "connections": [],
+    "confidence": 0.98
+  },
+  {
+    "id": "8\u00f8_Scullery_1",
+    "type": "Supply",
+    "dimension_label": "8\u00f8",
+    "location_context": "Scullery",
+    "bbox": [
+      0.185,
+      0.1,
+      0.245,
+      0.23
+    ],
+    "connections": [
+      {
+        "target_id": "12\u00f8_Scullery_1",
+        "relative_position": "Right"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "12\u00f8_Scullery_1",
+    "type": "Supply",
+    "dimension_label": "12\u00f8",
+    "location_context": "Scullery",
+    "bbox": [
+      0.185,
+      0.23,
+      0.245,
+      0.28
+    ],
+    "connections": [
+      {
+        "target_id": "8\u00f8_Scullery_1",
+        "relative_position": "Left"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "10\u00f8_Scullery_2",
+    "type": "Supply",
+    "dimension_label": "10\u00f8",
+    "location_context": "Scullery",
+    "bbox": [
+      0.42,
+      0.1,
+      0.48,
+      0.23
+    ],
+    "connections": [
+      {
+        "target_id": "12\u00f8_Scullery_2",
+        "relative_position": "Right"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "12\u00f8_Scullery_2",
+    "type": "Supply",
+    "dimension_label": "12\u00f8",
+    "location_context": "Scullery",
+    "bbox": [
+      0.42,
+      0.23,
+      0.48,
+      0.28
+    ],
+    "connections": [
+      {
+        "target_id": "10\u00f8_Scullery_2",
+        "relative_position": "Left"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "14\u00f8_Kitchen_1",
+    "type": "Supply",
+    "dimension_label": "14\u00f8",
+    "location_context": "Kitchen",
+    "bbox": [
+      0.26,
+      0.37,
+      0.33,
+      0.44
+    ],
+    "connections": [
+      {
+        "target_id": "12\u00f8_Kitchen_1",
+        "relative_position": "Right"
+      }
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "12\u00f8_Kitchen_1",
+    "type": "Supply",
+    "dimension_label": "12\u00f8",
+    "location_context": "Kitchen",
+    "bbox": [
+      0.34,
+      0.37,
+      0.39,
+      0.46
+    ],
+    "connections": [
+      {
+        "target_id": "14\u00f8_Kitchen_1",
+        "relative_position": "Left"
+      }
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "14\u00f8_Dining_1",
+    "type": "Supply",
+    "dimension_label": "14\u00f8",
+    "location_context": "Dining",
+    "bbox": [
+      0.19,
+      0.65,
+      0.25,
+      0.86
+    ],
+    "connections": [
+      {
+        "target_id": "10\u00f8_Service_1",
+        "relative_position": "Side"
+      }
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "14\u00f8_Dining_2",
+    "type": "Supply",
+    "dimension_label": "14\u00f8",
+    "location_context": "Dining",
+    "bbox": [
+      0.64,
+      0.65,
+      0.7,
+      0.86
+    ],
+    "connections": [
+      {
+        "target_id": "10\u00f8_Service_2",
+        "relative_position": "Side"
+      }
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "10\u00f8_Service_1",
+    "type": "Supply",
+    "dimension_label": "10\u00f8",
+    "location_context": "Service",
+    "bbox": [
+      0.19,
+      0.58,
+      0.25,
+      0.63
+    ],
+    "connections": [
+      {
+        "target_id": "14\u00f8_Dining_1",
+        "relative_position": "Side"
+      }
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "10\u00f8_Service_2",
+    "type": "Supply",
+    "dimension_label": "10\u00f8",
+    "location_context": "Service",
+    "bbox": [
+      0.64,
+      0.58,
+      0.7,
+      0.63
+    ],
+    "connections": [
+      {
+        "target_id": "14\u00f8_Dining_2",
+        "relative_position": "Side"
+      }
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "22x14_Main_1",
+    "type": "Supply",
+    "dimension_label": "22x14",
+    "location_context": "Main",
+    "bbox": [
+      0.42,
+      0.42,
+      0.58,
+      0.58
+    ],
+    "connections": [],
+    "confidence": 0.98
+  },
+  {
+    "id": "10\u00f8_Kitchen_Transition",
+    "type": "Supply",
+    "dimension_label": "10\u00f8",
+    "location_context": "Kitchen",
+    "bbox": [
+      0.32,
+      0.28,
+      0.36,
+      0.32
+    ],
+    "connections": [],
+    "confidence": 0.95
+  },
+  {
+    "id": "10\u00f8_Service_Transition",
+    "type": "Supply",
+    "dimension_label": "10\u00f8",
+    "location_context": "Service",
+    "bbox": [
+      0.52,
+      0.52,
+      0.56,
+      0.56
+    ],
+    "connections": [],
+    "confidence": 0.95
+  },
+  {
+    "id": "Flex_Scullery_1",
+    "type": "Supply",
+    "dimension_label": "Flex",
+    "location_context": "Scullery",
+    "bbox": [
+      0.15,
+      0.08,
+      0.18,
+      0.12
+    ],
+    "connections": [],
+    "confidence": 0.9
+  },
+  {
+    "id": "Flex_Kitchen_1",
+    "type": "Supply",
+    "dimension_label": "Flex",
+    "location_context": "Kitchen",
+    "bbox": [
+      0.48,
+      0.35,
+      0.52,
+      0.4
+    ],
+    "connections": [],
+    "confidence": 0.9
+  }
+]

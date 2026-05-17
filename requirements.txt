@@ -1,0 +1,21 @@
+# Web Framework & API
+fastapi
+uvicorn
+python-multipart
+requests
+streamlit
+
+# AI & LLM
+google-genai
+Pillow
+openai
+
+# Image & PDF Processing
+opencv-python
+numpy
+pdf2image
+pdfplumber
+scikit-image
+
+# Environment & Utilities
+python-dotenv
